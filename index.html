@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
+             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="김근우 - 프로필 링크" />
+        <meta property="og:description" content="경북대 로스쿨 14기" />
+        <meta property="og:image" content="profile.jpg" />
+        <title>르탄이 - 프로필 링크</title>
+        <style>
+            @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+            * {
+                font-family: "Pretendard",serif;
+            }
+            body {
+                background: linear-gradient(180deg, #422B83 0%, #4A629F 100%);
+                height: 100vh;
+            }
+            .wrap {
+                width: 300px;
+                margin: 30px auto 0px auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .wrap > a {
+                width: 300px;
+                height: 50px;
+                background-color: white;
+                border-radius: 8px;
+                margin-bottom: 10px;
+                font-size: 14px;
+                font-weight: bold;
+                color: #44398A;
+                text-decoration: none;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                box-shadow: 3px 3px 5px 0px black;
+            }
+            .wrap > a:hover {
+                background-color: #b9b9b9;
+            }
+            .profile {
+                width: 100px;
+                height: 100px;
+                background-color: green;
+                border-radius: 100%;
+                border: 2px solid white;
+                background-image: url('profile.jpg');
+                background-position: center;
+                background-size: cover;
+            }
+            .main {
+                color: white;
+                font-size: 20px;
+                margin-top: 30px;
+                margin-bottom: 10px;
+            }
+            .sub {
+                color: white;
+                font-size: 14px;
+                margin-top: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="profile"></div>
+            <h1 class="main">김근우</h1>
+            <p class="sub">경북대 로스쿨 14기</p>
+            <a target="_blank" href="https://blog.naver.com/roootwoo">네이버 블로그</a>
+            <a target="_blank" href="https://www.facebook.com/roootwoo">페이스북</a>
+            <a target="_blank" href="https://github.com/rootwoo">GitHub</a>
+            <a target="_blank" href="https://kin.naver.com/profile/index.naver?u=uEjiWC1irdCrHTVXvyGzgXYc08r%2FlC8kMKneq5qL0xg%3D">네이버 지식in</a>
+        </div>
+        
+    </body>
+</html>
